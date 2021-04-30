@@ -1,0 +1,312 @@
+body {
+    font-size: 16.5px;
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bai Jamjuree';
+    color:hsl(201, 11%, 66%);
+    margin: 0;
+    padding: 0;
+    height: 4950px;
+    font-weight: 200;
+} 
+
+.all {
+    margin: 30% 7% 7% 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top img {
+    width: 38%;
+}
+
+h1 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 31px;
+}
+
+h2 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 27px;
+}
+
+h3 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.h3-p p {
+    margin-bottom: 3rem;
+}
+
+.h3-p img {
+    width: auto;
+    margin-bottom: 0;
+}
+
+.keep-track {
+    margin-bottom: 6rem;
+}
+
+p {
+    margin: 12px;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+    margin: 2.5rem 0;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 5rem 0;
+}
+
+.button-group button {
+    padding: 1rem;
+    border-radius: 3rem;
+    margin: 0.8rem;
+    box-shadow: 2px 2px 10px rgb(209, 199, 199);
+    font-size: 1rem;
+    color: white;
+    font-family: 'Bai Jamjuree';
+}
+
+.green-button {
+    background-color: hsl(171, 66%, 44%);
+    border: 2px solid hsl(171, 66%, 33%);
+    border-top: none;
+}
+
+.green-button:hover {
+    background-color: hsl(171, 73%, 53%);
+    border: 2px solid hsl(171, 63%, 43%);
+    border-top: none;
+}
+
+.blue-button {
+    background-color: hsl(233, 100%, 69%);
+    border: 2px solid hsl(233, 75%, 62%);
+    border-top: none;
+}
+
+.blue-button:hover {
+    background-color: hsl(233, 84%, 75%);
+    border: 2px solid hsl(233, 88%, 66%);
+    border-top: none;
+}
+
+.companies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 6rem 0;
+}
+
+.companies img {
+    width: 35%;
+    margin: 2rem 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(248, 248, 248);
+    height: fit-content;
+}
+
+.footer img {
+    width: 15%;
+    align-items: center;
+    align-self: center;
+}
+
+.footer-button-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-button {
+    border: none;
+    font-size: 18px;
+    background-color: rgb(248, 248, 248);
+    color: hsl(210, 10%, 33%);
+    font-weight: 200;
+    line-height: 3;
+}
+
+.footer-button:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: hsl(210, 10%, 33%);
+}
+
+.social-media i {
+    margin: 10%;
+}
+
+.social-media i:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: black;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 1000px) {
+
+    body {
+        background-image: url(images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .all {
+        margin: 6% 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top img {
+        width: 17%;
+    }
+    
+    .top p {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+    
+    h2 {
+        font-size: 34px;
+    }
+    
+    h3 {
+        font-size: 23px;
+        margin-bottom: 0;
+    }
+
+    .button-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 2rem 0 5rem 0;
+    }
+
+    .button-group button {
+        width: 14rem;
+        padding: 1rem;
+        border-radius: 3rem;
+        margin: 0.6rem;
+        font-size: 1.1rem;
+    }
+
+    .extra-margin {
+        margin: 0 23% 0 23%;
+    }
+
+    .img-h3p {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img-h3p img {
+        width: 50%;
+    }
+
+    .img-h3p .h3-p {
+        width: 50%;
+        margin: 5% 10% 5% 10%;
+        text-align: left;
+    }
+
+    .access-anywhere-img {
+        width: 65%;
+        align-self: center;
+        margin: 7% 0 3% 0;
+    }
+
+    .image {
+        height: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .supercharge .h3-p {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0 5rem;
+    }
+
+    .blacklists, .snippets, .preview {
+        width: 35%;
+        height: 300px;
+    }
+
+    .companies {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 5rem 0 6rem 0;
+    }
+    
+    .companies img {
+        width: 11%;
+        margin: 2rem 0;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 7%;
+    }
+
+    .footer-button-group {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 20% 0 7%;
+        width: 50%;
+        padding: 1rem 0;
+    }
+
+    .footer-button {
+        margin: 0 6%;
+        text-align: left;
+        width: fit-content;
+        font-weight: 200;
+    }
+
+    .footer img {
+        width: 5%;
+        margin: 0 3% 0 0;
+    }
+}
